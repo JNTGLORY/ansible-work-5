@@ -1,7 +1,7 @@
 #  ansible n1 -m file -a "path=/home/ec2-user/ni_dir state=directory"
 ---
 
-- name: Update n1 servers
+- name: Update n1 webservers
   hosts: n1
 
   tasks:

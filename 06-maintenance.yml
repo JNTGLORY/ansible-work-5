@@ -7,7 +7,5 @@
   - name: Update maintenance
     copy: 
       src: Maintenance.html
-      dest:: /var/www/html/index.html
-
-  
+      dest: /var/www/html/index.html
 ...        
